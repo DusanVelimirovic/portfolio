@@ -1,23 +1,28 @@
+import chatapp from './img/chat-app.png';
+import gymapp from './img/gym-app.png';
+import todoapp from './img/to-do-list.png';
+import keeperapp from './img/keeper-app.png';
+
 export const products = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/14774750/pexels-photo-14774750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "https://images.pexels.com/photos/14774750/pexels-photo-14774750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img: chatapp,
+      link: "https://dusanvelimirovic.com/",
     },
     {
       id: 2,
-      img: "",
-      link: "https://images.pexels.com/photos/14774750/pexels-photo-14774750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img: gymapp,
+      link: "https://gymapp.dusanvelimirovic.com/",
     },
     {
       id: 3,
-      img: "",
-      link: "http://lama.dev",
+      img: todoapp,
+      link: "https://aqueous-tor-28256.herokuapp.com/",
     },
     {
       id: 4,
-      img: "",
-      link: "http://lama.dev",
+      img: keeperapp,
+      link: "https://dusanvelimirovic.github.io/keeper-app/",
     },
     {
       id: 5,
