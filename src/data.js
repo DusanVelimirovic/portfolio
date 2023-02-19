@@ -13,7 +13,7 @@ export const products = [
     {
       id: 2,
       img: chatapp,
-      link: "https://dusanvelimirovic.com/",
+      link: "https://chatapp.dusanvelimirovic.com/",
     },
     {
       id: 3,
@@ -29,10 +29,5 @@ export const products = [
       id: 5,
       img: keeperapp,
       link: "https://dusanvelimirovic.github.io/keeper-app/",
-    },
-    {
-      id: 6,
-      img: "",
-      link: "http://lama.dev",
-    },
+    }
   ];
