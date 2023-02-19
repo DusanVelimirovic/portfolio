@@ -1,5 +1,7 @@
 import "./about.css";
-import Award from "../../img/award.png";
+import Coursera from "../../img/coursera.jpeg";
+
+
 
 const About = () => {
   return (
@@ -21,18 +23,26 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        Hello world! My name is Dusan Velimirovic and I'm full stack cloud developer and engineer with experience on the 
+        both side, front-end and back-end also as a cloud computing.
+        In addition to work, the majority owner of my time is my three-year-old daughter . 
+        I'm crazy mountains lover and I love hiking. 
+        My journey into the world of Web Development and Computer Science in general was completely intuitive and a consequence of pure coincidence.
+        Since I have the attitude that in the modern world we need to constantly learn and improve, I chosed the field of Web Development as something that sounded modern and promising. Over time, I realized that the knowledge you gain from Web Development and Cloud technology, no matter what company or industry you work in, is an added
+        value and something you can practically use to connect with people.
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+          <img src={Coursera} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Cloud Application Development Foundations </h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            This sertification help me to:
+            <ul className="a-award-desc">
+              <li> define cloud computing and explain its essential characteristics, models, benefits, infrastructure, & emerging trends.</li>
+              <li> Develop apps with front-end development languages and tools such as HTML, CSS, Javascript and React.</li>
+              <li> Program applications with back-end development languages and tools such as Node.js  and NoSQL databases</li>
+              <li> Build and deploy applications using Cloud Native methodologies and tools, CI/CD toolchains, and build your portfolio using GitHub</li>
+            </ul>
             </p>
           </div>
         </div>
